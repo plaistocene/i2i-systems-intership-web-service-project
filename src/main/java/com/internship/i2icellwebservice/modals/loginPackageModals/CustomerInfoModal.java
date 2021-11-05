@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -16,4 +18,5 @@ public class CustomerInfoModal {
     private String email;
     private String token;
     private Boolean success;
+    private List<PackageInfoModal> packageInfoModal;
 }

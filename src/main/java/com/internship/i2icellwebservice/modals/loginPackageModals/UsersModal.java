@@ -25,7 +25,8 @@ import javax.persistence.*;
                         @StoredProcedureParameter(mode = ParameterMode.OUT, name = "o_mail", type = String.class),
                         @StoredProcedureParameter(mode = ParameterMode.OUT, name = "o_msisdn", type = String.class)
                 }
-        )})
+        )
+})
 public class UsersModal {
     @Id
     private Integer o_user_id;
